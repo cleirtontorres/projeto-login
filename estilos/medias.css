@@ -3,6 +3,10 @@
 
 /*CSS para telas de tablet*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    body{
+        background-image: linear-gradient(to bottom, #2bb673 -30%, #2d1664 100%);
+    }
+
     main {
         display: flex;
         width: 80vw;
@@ -23,6 +27,10 @@
 
 /*CSS para telas desktops*/
 @media screen and (min-width:1024px) {
+    body{
+        background-image: linear-gradient(to bottom, #2bb673 -30%, #2d1664 100%);
+    }
+
     main{
         display: flex;
         width: 85%;
