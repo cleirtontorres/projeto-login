@@ -1,85 +1,96 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body, html{
-    
-    width: 100vw;
-}
-
-body{
+body {
     background-color: #2d1664;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-main{
+main {
     background-color: white;
-    width: 300px;
+    width: 309px;
     height: 500px;
     margin: auto;
-    margin-top: 80px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 2px 3px 8px #0000008e;
+    transition: width .4s, height .4s;
 }
 
-#img{
-    background-image: url(../imagens/wallpaper-folha.jpg);
+#img {
+    background: url(../imagens/wallpaper-folha.jpg) center / cover no-repeat;
     height: 180px;
     width: 100%;
-    background-size: cover;
-    background-position:top center;
 }
 
-main > h1{
+h1 {
     text-align: center;
     margin: 5px;
 }
 
-main > p{
-   padding:8px;
-   font-size: 0.8em;
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
 }
 
-.campo{
+p {
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+.campo {
     display: flex;
-    width: 90%;
     align-items: center;
-    margin: auto;
-    background-color:#746791 ;
+    background-color: #746791;
     border-radius: 5px;
     margin-bottom: 5px;
 }
 
-.inp{
-    width: 90%;
+.inp {
+    width: 100%;
+    border: none;
+    outline: none;
     border-radius: 7px;
-    margin: auto;
     padding: 10px;
     margin: 2px;
     background-color: #eaf6ee;
 }
 
-span{
+span {
     color: white;
     margin: 2px;
 }
 
-.button{
-    display: block;
-    margin: auto;
-    width: 90%;
+.button {
+    width: 100%;
     margin-bottom: 5px;
     padding: 10px;
     border-radius: 7px;
     border: 1.5px solid #284a39;
 }
 
-.entrar{
+.entrar {
     background-color: #284a39;
     color: white;
+}
+
+.entrar:hover {
+    background-color: #1d3328;
+    cursor: pointer;
+}
+
+.recuperar-senha:hover {
+    background-color: #bbedd4;
+    cursor: pointer;
 }
