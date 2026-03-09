@@ -26,6 +26,7 @@
     main{
         display: flex;
         width: 85%;
+        max-width: 1000px;
         height: 350px;
         flex-direction: row-reverse;
     }
