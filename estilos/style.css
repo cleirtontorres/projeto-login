@@ -64,7 +64,11 @@ p {
     border-radius: 7px;
     padding: 10px;
     margin: 2px;
-    background-color: #eaf6ee;
+    background-color: #e3f7ea;
+}
+
+.inp:hover{
+    background-color: white;
 }
 
 span {
