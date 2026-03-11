@@ -22,15 +22,17 @@
             </p>
             <form action="login.php" method="post">
                 <div class="campo">
-                    <span class="material-symbols-outlined">Mail</span>
+                    <span class="material-symbols-outlined">person</span>
                     <input class="inp" type="email" name="email" id="email" placeholder="seu e-mail" required autocomplete="on" minlength="8">
                 </div >
                 <div class="campo">
-                    <span class="material-symbols-outlined">key</span>
+                    <span class="material-symbols-outlined">vpn_key</span>
                     <input class="inp" type="password" name="senha" id="senha" placeholder="sua senha" required autocomplete="on" minlength="8">
                 </div>
-                <div ><input class="button entrar" type="submit" value="Entrar"></div>
-                <div ><input class="button recuperar-senha" type="button" value="Esqueci a senha"></div>
+                <div id="buttons">
+                    <div ><input class="button entrar" type="submit" value="Entrar"></div>
+                    <div ><input class="button recuperar-senha" type="button" value="Esqueci a senha"></div>
+                </div>
             </form>
         </section>
     </main>
